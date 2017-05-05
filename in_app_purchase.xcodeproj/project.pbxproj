@@ -14,6 +14,13 @@
 		0D75F8C01AD93B3500F3FECE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D75F8BF1AD93B3500F3FECE /* Images.xcassets */; };
 		0D75F8C31AD93B3500F3FECE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D75F8C11AD93B3500F3FECE /* LaunchScreen.xib */; };
 		0D75F8CF1AD93B3500F3FECE /* in_app_purchaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D75F8CE1AD93B3500F3FECE /* in_app_purchaseTests.m */; };
+		0D75F8DE1AD93BA100F3FECE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D75F8D91AD93BA100F3FECE /* SVIndefiniteAnimatedView.m */; };
+		0D75F8DF1AD93BA100F3FECE /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D75F8DB1AD93BA100F3FECE /* SVProgressHUD.bundle */; };
+		0D75F8E01AD93BA100F3FECE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D75F8DD1AD93BA100F3FECE /* SVProgressHUD.m */; };
+		0D75F8E21AD93BBA00F3FECE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D75F8E11AD93BBA00F3FECE /* CoreData.framework */; };
+		0D75F8E41AD93BC700F3FECE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D75F8E31AD93BC700F3FECE /* SystemConfiguration.framework */; };
+		0D75F8E61AD93BD000F3FECE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D75F8E51AD93BD000F3FECE /* CFNetwork.framework */; };
+		0D75F8E81AD93BE800F3FECE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D75F8E71AD93BE800F3FECE /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		0D75F8C81AD93B3500F3FECE /* in_app_purchaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = in_app_purchaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D75F8CD1AD93B3500F3FECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D75F8CE1AD93B3500F3FECE /* in_app_purchaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = in_app_purchaseTests.m; sourceTree = "<group>"; };
+		0D75F8D81AD93BA100F3FECE /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		0D75F8D91AD93BA100F3FECE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		0D75F8DA1AD93BA100F3FECE /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		0D75F8DB1AD93BA100F3FECE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0D75F8DC1AD93BA100F3FECE /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		0D75F8DD1AD93BA100F3FECE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0D75F8E11AD93BBA00F3FECE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D75F8E31AD93BC700F3FECE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0D75F8E51AD93BD000F3FECE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0D75F8E71AD93BE800F3FECE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D75F8E81AD93BE800F3FECE /* StoreKit.framework in Frameworks */,
+				0D75F8E61AD93BD000F3FECE /* CFNetwork.framework in Frameworks */,
+				0D75F8E41AD93BC700F3FECE /* SystemConfiguration.framework in Frameworks */,
+				0D75F8E21AD93BBA00F3FECE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,16 @@
 		0D75F8A61AD93B3500F3FECE = {
 			isa = PBXGroup;
 			children = (
+				0D75F8E71AD93BE800F3FECE /* StoreKit.framework */,
+				0D75F8E51AD93BD000F3FECE /* CFNetwork.framework */,
+				0D75F8E31AD93BC700F3FECE /* SystemConfiguration.framework */,
+				0D75F8E11AD93BBA00F3FECE /* CoreData.framework */,
+				0D75F8D81AD93BA100F3FECE /* SVIndefiniteAnimatedView.h */,
+				0D75F8D91AD93BA100F3FECE /* SVIndefiniteAnimatedView.m */,
+				0D75F8DA1AD93BA100F3FECE /* SVProgressHUD-Prefix.pch */,
+				0D75F8DB1AD93BA100F3FECE /* SVProgressHUD.bundle */,
+				0D75F8DC1AD93BA100F3FECE /* SVProgressHUD.h */,
+				0D75F8DD1AD93BA100F3FECE /* SVProgressHUD.m */,
 				0D75F8B11AD93B3500F3FECE /* in_app_purchase */,
 				0D75F8CB1AD93B3500F3FECE /* in_app_purchaseTests */,
 				0D75F8B01AD93B3500F3FECE /* Products */,
@@ -202,6 +233,7 @@
 				0D75F8BE1AD93B3500F3FECE /* Main.storyboard in Resources */,
 				0D75F8C31AD93B3500F3FECE /* LaunchScreen.xib in Resources */,
 				0D75F8C01AD93B3500F3FECE /* Images.xcassets in Resources */,
+				0D75F8DF1AD93BA100F3FECE /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +253,9 @@
 			files = (
 				0D75F8BB1AD93B3500F3FECE /* ViewController.m in Sources */,
 				0D75F8B81AD93B3500F3FECE /* AppDelegate.m in Sources */,
+				0D75F8E01AD93BA100F3FECE /* SVProgressHUD.m in Sources */,
 				0D75F8B51AD93B3500F3FECE /* main.m in Sources */,
+				0D75F8DE1AD93BA100F3FECE /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = in_app_purchase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = in_app_purchase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/StoreKit.h>
+#import "SVProgressHUD.h"
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController<SKProductsRequestDelegate,SKRequestDelegate,SKPaymentTransactionObserver>
+{
+    NSMutableArray *arr1;
+    BOOL flag;
+    NSString *pid;
+}
 
 @end
 
